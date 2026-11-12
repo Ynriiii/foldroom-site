@@ -1,0 +1,13 @@
+:root { --bg: #f3e3c3; --ink: #2b1d14; --soft: #6b5440; --accent: #1f3a4d; }
+@media (prefers-color-scheme: dark) { :root { --bg: #1d1712; --ink: #f0e2c6; --soft: #c4ae8c; --accent: #9cc3dd; } }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 17px/1.6 system-ui, "Segoe UI", Roboto, "Noto Sans Arabic", sans-serif; }
+main { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; }
+nav { font-size: 15px; margin-bottom: 24px; }
+a { color: var(--accent); }
+h1 { font-size: 28px; line-height: 1.25; }
+h2 { font-size: 20px; margin-top: 32px; }
+h3 { font-size: 17px; margin: 20px 0 4px; }
+.date { color: var(--soft); margin-top: -8px; }
+hr { border: 0; border-top: 1px dashed var(--soft); margin: 48px 0; }
+li { margin: 6px 0; }
